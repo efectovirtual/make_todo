@@ -24,26 +24,31 @@ Luego de requerirlo podras utilizar la clase `Tarea` y sus metodos los cuales se
 
     ``` ruby
       Tarea.all
+      #Devuelve un array compuesto por hashes, cada hash contine la informacion de cada tarea
     ```
 - Crear nuevas tareas:
 
     ``` ruby
       Tarea.create("Titulo de la tarea")
+      #Crea una nueva tarea en la base de datos
     ```
 - Completar tareas:
 
     ``` ruby
       Tarea.update(id)
+      #Actuliza el atributo de `done` de la tarea pasandolo de `false` a `true`
     ```
 - Buscar una tarea:
 
     ``` ruby
       Tarea.find(id)
+      #Devuelve un hash que contiene la informacion de la tarea encontrada
     ```
 - Destruir una tarea:
 
     ``` ruby
       Tarea.destroy(id)
+      #Borra la tarea especificada de la base de datos
     ```
 
 
