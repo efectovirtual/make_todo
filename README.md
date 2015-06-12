@@ -21,23 +21,28 @@ Luego de instalar el gem puedes requerirlo en el archivo de ruby que lo desees u
 Luego de requerirlo podras utilizar la clase `Tarea` y sus metodos los cuales se encuentran a continuacion.
 
 - Mostrar todas las tareas que existen:
-    ``` Ruby
+
+    ``` ruby
       Tarea.all
     ```
 - Crear nuevas tareas:
-    ``` Ruby
+
+    ``` ruby
       Tarea.create("Titulo de la tarea")
     ```
 - Completar tareas:
-    ``` Ruby
+
+    ``` ruby
       Tarea.update(id)
     ```
 - Buscar una tarea:
-    ``` Ruby
+
+    ``` ruby
       Tarea.find(id)
     ```
 - Destruir una tarea:
-    ``` Ruby
+
+    ``` ruby
       Tarea.destroy(id)
     ```
 
