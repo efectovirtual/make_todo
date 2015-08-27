@@ -13,6 +13,10 @@ Una vez instales este gem podras manipular la base de datos de este servidor uti
 Instala el gem de la siguiente manera:
 
     $ gem install make_todo
+    
+Instala el gem Httparty, el cual es una dependencia del gem make_todo
+    
+    $ gem install httparty
 
 ## Uso
 
